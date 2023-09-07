@@ -1,0 +1,197 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'estado_actual.Tb'
+Slack : -6.039
+TNS   : -40.978
+
+Type  : Slow 1100mV 85C Model Setup 'estado_actual.Td'
+Slack : -4.989
+TNS   : -4.989
+
+Type  : Slow 1100mV 85C Model Setup 'estado_actual.Te'
+Slack : -4.619
+TNS   : -4.619
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -2.506
+TNS   : -4.568
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -3.570
+TNS   : -17.690
+
+Type  : Slow 1100mV 85C Model Hold 'estado_actual.Tb'
+Slack : -0.563
+TNS   : -0.563
+
+Type  : Slow 1100mV 85C Model Hold 'estado_actual.Te'
+Slack : 3.421
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Hold 'estado_actual.Td'
+Slack : 3.951
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -8.859
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'estado_actual.Tb'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'estado_actual.Te'
+Slack : 0.309
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'estado_actual.Td'
+Slack : 0.372
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'estado_actual.Tb'
+Slack : -6.146
+TNS   : -41.912
+
+Type  : Slow 1100mV 0C Model Setup 'estado_actual.Td'
+Slack : -5.090
+TNS   : -5.090
+
+Type  : Slow 1100mV 0C Model Setup 'estado_actual.Te'
+Slack : -4.646
+TNS   : -4.646
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -2.284
+TNS   : -4.037
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -3.675
+TNS   : -18.174
+
+Type  : Slow 1100mV 0C Model Hold 'estado_actual.Tb'
+Slack : -0.454
+TNS   : -0.454
+
+Type  : Slow 1100mV 0C Model Hold 'estado_actual.Te'
+Slack : 3.417
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Hold 'estado_actual.Td'
+Slack : 4.021
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -9.018
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'estado_actual.Te'
+Slack : 0.267
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'estado_actual.Tb'
+Slack : 0.277
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'estado_actual.Td'
+Slack : 0.349
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'estado_actual.Tb'
+Slack : -1.851
+TNS   : -12.303
+
+Type  : Fast 1100mV 85C Model Setup 'estado_actual.Td'
+Slack : -1.713
+TNS   : -1.713
+
+Type  : Fast 1100mV 85C Model Setup 'estado_actual.Te'
+Slack : -1.575
+TNS   : -1.575
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -1.331
+TNS   : -2.412
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -1.537
+TNS   : -7.599
+
+Type  : Fast 1100mV 85C Model Hold 'estado_actual.Tb'
+Slack : -0.283
+TNS   : -0.283
+
+Type  : Fast 1100mV 85C Model Hold 'estado_actual.Te'
+Slack : 1.797
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Hold 'estado_actual.Td'
+Slack : 1.980
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.079
+TNS   : -0.629
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'estado_actual.Tb'
+Slack : 0.419
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'estado_actual.Td'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'estado_actual.Te'
+Slack : 0.490
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'estado_actual.Tb'
+Slack : -1.737
+TNS   : -11.522
+
+Type  : Fast 1100mV 0C Model Setup 'estado_actual.Td'
+Slack : -1.636
+TNS   : -1.636
+
+Type  : Fast 1100mV 0C Model Setup 'estado_actual.Te'
+Slack : -1.496
+TNS   : -1.496
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -0.918
+TNS   : -1.595
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -1.512
+TNS   : -7.471
+
+Type  : Fast 1100mV 0C Model Hold 'estado_actual.Tb'
+Slack : -0.242
+TNS   : -0.242
+
+Type  : Fast 1100mV 0C Model Hold 'estado_actual.Te'
+Slack : 1.764
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Hold 'estado_actual.Td'
+Slack : 1.937
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.080
+TNS   : -0.634
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'estado_actual.Tb'
+Slack : 0.442
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'estado_actual.Te'
+Slack : 0.477
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'estado_actual.Td'
+Slack : 0.489
+TNS   : 0.000
+
+------------------------------------------------------------

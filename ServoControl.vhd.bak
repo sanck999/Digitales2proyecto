@@ -1,0 +1,54 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+entity ServoControl is
+    Port (
+        CLK : in STD_LOGIC;
+        RESET : in STD_LOGIC;
+        Switch_Mode : in STD_LOGIC;
+        Btn_Open : in STD_LOGIC;
+        Btn_Close : in STD_LOGIC;
+        Servo_PWM : out STD_LOGIC
+    );
+end ServoControl;
+
+architecture Behavioral of ServoControl is
+    signal Counter : integer range 0 to 20000000;  -- Ajusta este valor según la velocidad deseada
+    signal ServoAngle : integer range 0 to 180 := 90;  -- Ángulo inicial del servo
+    signal ServoPWMOutput : STD_LOGIC := '0';
+
+    constant PWMPeriod : integer := 1000000;  -- Período del PWM (ajusta según la frecuencia deseada)
+
+begin
+    process (CLK, RESET)
+    begin
+        if RESET = '1' then
+            Counter <= 0;
+            ServoAngle <= 90;
+            ServoPWMOutput <= '0';
+        elsif rising_edge(CLK) then
+            if Counter = 0 then
+                if Switch_Mode = '1' then  -- Modo manual
+                    if Btn_Open = '1' then
+                        ServoAngle <= ServoAngle + 5;
+                    elsif Btn_Close = '1' then
+                        ServoAngle <= ServoAngle - 5;
+                    end if;
+                end if;
+
+                Counter <= PWMPeriod;
+                ServoPWMOutput <= '1';
+            elsif Counter = ServoAngle then
+                ServoPWMOutput <= '0';
+            end if;
+
+            if ServoPWMOutput = '1' then
+                Counter <= Counter - 1;
+            end if;
+        end if;
+    end process;
+
+    Servo_PWM <= ServoPWMOutput;
+end Behavioral;

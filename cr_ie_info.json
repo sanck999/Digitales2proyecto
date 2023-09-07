@@ -1,0 +1,22 @@
+{
+	"system" : {
+		"platform" : "windows64",
+		"os_name" : "Windows 10",
+		"os_version" : "10.0"
+	},
+	"error" : {
+		"executable" : "quartus",
+		"comment" : "not_applicable",
+		"error_message" : "Access Violation at 0X00007FFDB6EE6152",
+		"source_file" : "unknown",
+		"line" : "0",
+		"stack_trace" : "\t0x7ffdb6ee6151: windows.storage + 0x106151 (CFSFolder_CreateFolder + 0x42d1)\n\t0x7ffdb6efe956: windows.storage + 0x11e956 (ILIsEqual + 0x716)\n\t0x7ffdb6f63929: windows.storage + 0x183929 (SHCreateDefaultExtractIcon + 0x5989)\n\t0x7ffdb6f8edca: windows.storage + 0x1aedca (Ordinal740 + 0x7a7a)\n\t0x7ffdbaa0529a: combase + 0x4529a (CoUninitialize + 0x18a)\n\t0x7ffdb6f5177a: windows.storage + 0x17177a (SHGetKnownFolderItem + 0xca)\n\t0x7ffdba4a143f: shcore + 0x4143f (DllGetClassObject + 0x62f)\n\t0x7ffdbbb3ca00: ntdll + 0x4ca00 (RtlQueueWorkItem + 0x570)\n\t0x7ffdbbb25975: ntdll + 0x35975 (RtlClearThreadWorkOnBehalfTicket + 0x965)\n\t0x7ffdbae8257c: KERNEL32 + 0x1257c (BaseThreadInitThunk + 0x1c)\n\t0x7ffdbbb4aa67: ntdll + 0x5aa67 (RtlUserThreadStart + 0x27)\n",
+		"subsystem" : "unknown"
+	},
+	"quartus" : {
+		"quartus_bits" : "64",
+		"version" : "19.1.0",
+		"build" : "670",
+		"edition" : "Lite Edition"
+	}
+}

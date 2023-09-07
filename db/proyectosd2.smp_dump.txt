@@ -1,0 +1,12 @@
+
+State Machine - |proyectosd2|MSS:inst4|estado_actual
+Name estado_actual.Ti estado_actual.Th estado_actual.Tg estado_actual.Tf estado_actual.Te estado_actual.Td estado_actual.Tc estado_actual.Tb estado_actual.Ta 
+estado_actual.Ta 0 0 0 0 0 0 0 0 0 
+estado_actual.Tb 0 0 0 0 0 0 0 1 1 
+estado_actual.Tc 0 0 0 0 0 0 1 0 1 
+estado_actual.Td 0 0 0 0 0 1 0 0 1 
+estado_actual.Te 0 0 0 0 1 0 0 0 1 
+estado_actual.Tf 0 0 0 1 0 0 0 0 1 
+estado_actual.Tg 0 0 1 0 0 0 0 0 1 
+estado_actual.Th 0 1 0 0 0 0 0 0 1 
+estado_actual.Ti 1 0 0 0 0 0 0 0 1 
